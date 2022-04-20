@@ -1,29 +1,17 @@
-# LAB - Class xx
+# LAB - Class 02
 
-## Project: Project Name Here
+## Project: Modules and Testing
 
-## Author: Student/Group Name
-
-### Links and Resources
-
-- back-end server url (when applicable)
-- front-end application (when applicable)
+## Author: James Brooks
 
 ### Setup
 
-- .env requirements (where applicable)
-  - i.e.
-  - PORT - Port Number
-  - DATABASE_URL - URL to the running Postgres instance/db
-
-### How to initialize/run your application (where applicable)
-
-- e.g. python main.py
-
-### How to use your library (where applicable)
+- pip install -r requirements.txt
+- .python series.py
 
 ### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- To run the tests, you use pytest within the virtual enviroment.
+- There are 13 tests in total with two skipped as they take up alot of time when they run as they request the 33rd number in the sequence.
+  - The running tests will check for the 0th, 1st, 5th, and 15th number in each sequence.
+  - It also tests the function to run either sequence based on optional arguments.
